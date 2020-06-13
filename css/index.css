@@ -1,0 +1,203 @@
+/* Colors
+
+font: #D25B2E
+Buy button: #E9C75B
+
+*/
+
+/* Main-container */
+
+.search-row {
+    margin-top: 20px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.user, .basket {
+    margin-left: 10px;
+    height: 31px;
+    width: 31px;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.line-row {
+    margin-top: 25px;
+}
+
+.line {
+    min-width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 1px;
+    background-color: darkgray;
+    box-shadow: 3px 1px black;
+}
+
+/* Product Container */
+
+.product-row {
+    margin-top: 100px;
+}
+
+.product-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.macpro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.product-name {
+    color: rgb(47, 47, 47);
+}
+
+.product-spec {
+    margin-top: 20px;
+}
+
+.spec-item {
+    color: rgb(47, 47, 47);
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+.price {
+    margin-left: 15px;
+}
+
+.buy {
+    margin-top: 20px;
+    height: 70px;
+    width: 300px;
+    background-color: #E9C75B;
+    border: none;
+}
+
+/* Description Container */
+
+.product-description {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.product-p {
+    margin-top: 20px;
+}
+
+/* Product COntainer */
+
+.header-row {
+    margin-top: 30px;
+}
+
+.products-row {
+    margin-top: 30px;
+}
+
+.buy-h3 {
+    color: rgb(47, 47, 47);
+    text-align: center;
+}
+
+.card {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    text-align: center;
+    color: rgb(47, 47, 47);
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 18rem;
+    height: 12rem;
+}
+
+.buy-2 {
+    margin-top: 20px;
+    height: 70px;
+    width: 16rem;
+    background-color: #E9C75B;
+    border: none;
+}
+
+/* Footer */
+
+.footer-scorch {
+    margin-top: 50px;
+    height: 200px;
+    background-color: rgb(47, 47, 47);
+}
+
+.disclaimer {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding-top: 180px;
+}
+
+
+@media screen and (max-width: 860px) {
+    .form-control {
+        margin-left: 20px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .form-group {
+        margin-top: 20px;
+    }
+
+    .form-control {
+        margin-left: auto;
+    }
+
+    .user, .basket {
+        margin-top: -35px;
+    }
+
+    .product-info {
+        margin-top: 30px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
